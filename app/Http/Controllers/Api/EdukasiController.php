@@ -20,8 +20,6 @@ class EdukasiController extends Controller
         $data = Edukasi::create([
             'judul' => $request->judul,
             'konten' => $request->konten,
-            'link_video' => $request->link_video,
-            'id_budaya' => $request->id_budaya,
             'id_user' => $request->id_user,
             'tanggal_dibuat' => now()
         ]);

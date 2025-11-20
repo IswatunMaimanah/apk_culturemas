@@ -13,8 +13,6 @@ class Edukasi extends Model
     protected $fillable = [
         'judul',
         'konten',
-        'link_video',
-        'id_budaya',
         'id_user',
         'tanggal_dibuat'
     ];
